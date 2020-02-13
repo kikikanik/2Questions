@@ -47,6 +47,7 @@ public class Edition2 {
 			System.out.println("Is it a "+ vegetableSmallerThanLaptop + "?");
 		}
 System.out.println("Bye!");
+in.close(); //must close scanner
 	}
 
 }
