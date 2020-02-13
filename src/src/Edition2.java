@@ -20,8 +20,8 @@ public class Edition2 {
 		firstAnswer = in.next() ;
 		System.out.print(secondQuestion);
 		secondAnswer = in.next();
-		
-		
+
+
 		if (firstAnswer.equals("animal") && secondAnswer.equals("bigger"))
 		{
 			System.out.println("Is it a "+ animalBiggerThanLaptop + "?");
@@ -46,8 +46,8 @@ public class Edition2 {
 		{
 			System.out.println("Is it a "+ vegetableSmallerThanLaptop + "?");
 		}
-System.out.println("Bye!");
-in.close(); //must close scanner
+		System.out.println("Bye!");
+		in.close(); //must close scanner
 	}
 
 }
